@@ -18,10 +18,10 @@
 
 ##  Features
 
-- 🔌 [Full CRUD Integration — Seamlessly fetch, add, edit, and delete user records from a remote JSON database.]
-- 🎨 [Modern Angular Architecture — Built with Angular v21 using standalone components and Signal-based state management for efficient performance.]
-- ⚡ [Dynamic Routing — Features a dedicated routing system for navigating between the product list, user creation, and editing views.]
-- 🔍 [Typed Data Handling — Uses TypeScript interfaces and HttpClient to ensure type safety when interacting with the backend API.]
+-  **Full CRUD Integration** — Seamlessly fetch, add, edit, and delete user records from a remote JSON database.
+-  **Modern Angular Architecture** — Built with Angular v21 using standalone components and Signal-based state management for efficient performance.
+-  **Dynamic Routing** — Features a dedicated routing system for navigating between the product list, user creation, and editing views.
+-  **Typed Data Handling** — Uses TypeScript interfaces and HttpClient to ensure type safety when interacting with the backend API.
 
 ---
 
