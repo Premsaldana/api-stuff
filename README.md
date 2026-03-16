@@ -1,59 +1,59 @@
-# Ang2
+<div align="center">
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
+# ⚡ api-stuff
 
-## Development server
+### A modern API playground — explore, test, and interact with APIs in style.
 
-To start a local development server, run:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-▶%20View%20App-brightgreen?style=for-the-badge)](https://api-stuff-five.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-```bash
-ng serve
+
+</div>
+
+---
+
+##  About
+
+**api-stuff** is an Angular-based user management application that performs CRUD (Create, Read, Update, Delete) operations through a RESTful API. The project utilizes Angular's latest features, including standalone components and Signal-based forms, to manage a list of users.
+
+##  Features
+
+- 🔌 [Full CRUD Integration — Seamlessly fetch, add, edit, and delete user records from a remote JSON database.]
+- 🎨 [Modern Angular Architecture — Built with Angular v21 using standalone components and Signal-based state management for efficient performance.]
+- ⚡ [Dynamic Routing — Features a dedicated routing system for navigating between the product list, user creation, and editing views.]
+- 🔍 [Typed Data Handling — Uses TypeScript interfaces and HttpClient to ensure type safety when interacting with the backend API.]
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology                  |
+|-------------|-----------------------------|
+| Frontend    | React / Next.js             |
+| Styling     | Tailwind CSS / CSS Modules  |
+| Deployment  | Vercel                      |
+
+
+
+
+##  Project Structure
+
+```
+api-stuff/
+├── app/              # Next.js App Router pages
+├── components/       # Reusable React components
+├── lib/              # Utility functions & API helpers
+├── public/           # Static assets
+└── ...
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
+<div align="center">
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Made with ❤️ by [Prem Saldana](https://github.com/Premsaldana)
 
-```bash
-ng generate --help
-```
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+</div>
