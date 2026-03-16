@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Product List</title>
+  </head>
+  <body>
+    <h1 class="page-title">Visitors</h1>
+
+    <ul class="product-list">
+      @for (product of products(); track product.id) {
+        <li class="product-item">
+          <span class="product-link">
+           {{$index+1}}.{{ product.name }} <span>[id : {{product.id}}] </span>
+           <button [routerLink]="['/edit', product.id]">edit</button>
+          </span>
+        </li>
+      }
+    </ul>
+  </body>
+</html>

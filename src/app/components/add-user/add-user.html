@@ -1,0 +1,16 @@
+<div class="form-container">
+  <div class="form-box">
+    <h1>Add new User</h1>
+
+    <input type="text" placeholder="enter name" [value]="name()" (input)="name.set($event.target.value)">
+    <br><br>
+
+    <input type="text" placeholder="enter email" [value]="email()" (input)="email.set($event.target.value)">
+    <br><br>
+
+    <input type="text" placeholder="enter ID" [value]="id()" (input)="id.set($event.target.value)">
+    <br><br>
+
+    <button (click)="addUser()">Add User</button>
+  </div>
+</div>

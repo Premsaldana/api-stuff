@@ -1,0 +1,6 @@
+<div class="form-container">
+  <input type="text" placeholder="Enter Email" [value]="email()" (input)="this.email.set($event.target.value)">
+  <input type="text" placeholder="Enter Name" [value]="name()" (input)="this.name.set($event.target.value)">
+  
+  <button (click)="update()">Make changes</button>
+</div>
