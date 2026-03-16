@@ -6,7 +6,6 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-▶%20View%20App-brightgreen?style=for-the-badge)](https://api-stuff-five.vercel.app/)
 [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 
 </div>
