@@ -11,10 +11,11 @@
     <ul class="product-list">
       @for (product of products(); track product.id) {
         <li class="product-item">
-          <span class="product-link">
-           {{$index+1}}.{{ product.name }} <span>[id : {{product.id}}] </span>
-           <button [routerLink]="['/edit', product.id]">edit</button>
+          <span class="product-info">
+            {{ $index + 1 }}. {{ product.name }} <span>[id : {{ product.id }}]</span>
           </span>
+
+          <button class="edit-btn" [routerLink]="['/edit', product.id]">Edit</button>
         </li>
       }
     </ul>
