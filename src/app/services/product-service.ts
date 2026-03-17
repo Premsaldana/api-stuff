@@ -6,7 +6,7 @@ import { users } from './sm';
   providedIn: 'root',
 })
 export class ProductService {
-  apiUrl = 'https://json-db-lvup.onrender.com/users';
+  apiUrl = 'https://json-db-1-cj6d.onrender.com/users';
   constructor(public http: HttpClient) {}
   getProducts() {
     return this.http.get<users[]>(this.apiUrl);
